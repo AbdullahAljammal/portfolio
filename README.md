@@ -22,10 +22,11 @@ This is a modern and responsive portfolio website for showcasing my skills, serv
 - HTML, CSS, and JavaScript for the frontend.
 - Responsive design for an optimal experience across devices.
 
-## Purpose
+## Features
 
-This website serves as a portfolio to display my skills and projects, attract potential clients, and facilitate professional networking.
-It includes a photo ,brief introduction and a call to action button 
+- **Glowing Effect on Service & Contact Sections**: One of the innovative features of this website is the glowing effect applied to the **Service** and **Contact** sections. This effect enhances the visual appeal and makes these sections more engaging for users.
+  
+- **Pricing Section**: I've added a **Pricing** section to clearly display the various packages and services I offer. This section helps visitors easily understand my offerings and make informed decisions.
 
 
 
