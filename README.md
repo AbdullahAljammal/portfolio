@@ -16,11 +16,9 @@ This is a modern and responsive portfolio website for showcasing my skills, serv
   - Professional Plan
   - Premium Plan
 - **Contact Section**: Easy-to-use contact information for reaching out.
-
-## Technologies Used
-
-- HTML, CSS, and JavaScript for the frontend.
-- Responsive design for an optimal experience across devices.
+  
+##Modern Blue Professional Theme
+This project utilizes a Modern Blue Professional Theme, designed to deliver a clean, professional, and visually appealing user experience. The theme is centered around a blue-based color palette with complementary tones to enhance readability and aesthetics.
 
 ## Features
 
