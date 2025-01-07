@@ -17,7 +17,7 @@ This is a modern and responsive portfolio website for showcasing my skills, serv
   - Premium Plan
 - **Contact Section**: Easy-to-use contact information for reaching out.
   
-##Modern Blue Professional Theme
+## Modern Blue Professional Theme
 This project utilizes a Modern Blue Professional Theme, designed to deliver a clean, professional, and visually appealing user experience. The theme is centered around a blue-based color palette with complementary tones to enhance readability and aesthetics.
 
 ## Features
