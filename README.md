@@ -20,11 +20,11 @@ This is a modern and responsive portfolio website for showcasing my skills, serv
 ## Modern Blue Professional Theme
 This project utilizes a Modern Blue Professional Theme, designed to deliver a clean, professional, and visually appealing user experience. The theme is centered around a blue-based color palette with complementary tones to enhance readability and aesthetics.
 
-- **Color Palette**:
-  -Light Gray: rgb(223, 219, 219) – Neutral background tone.
-  -Gold: Vibrant accent for buttons and highlights.
-  -Muted Brown: rgb(116, 80, 80) – Warmth and depth for contrast.
-  -Shades of Blue: Professional and trustworthy primary color.
+-  **Color Palette**:
+  - Light Gray: rgb(223, 219, 219) – Neutral background tone.
+  - Gold: Vibrant accent for buttons and highlights.
+  - Muted Brown: rgb(116, 80, 80) – Warmth and depth for contrast.
+  - Shades of Blue: Professional and trustworthy primary color.
 
 ## Innovative Features
 
