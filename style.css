@@ -1,11 +1,21 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+body{
+    background-color: rgb(0, 0, 0);
+   
+}
+.logo{
+    border: 1px black solid;
+    border-radius: 30px;
+    float: left;
 }
 
 .navbar {
-    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navbar {
+    background: rgb(76, 76, 171);
 }
 
 .navbar .nav-link {
@@ -31,15 +41,24 @@
     text-decoration: none;
 }
 
+i {
+    padding-left: 20%;
+}
+
+
+
+
 .main {
 
-    background: url(images.jpg) no-repeat;
+    background: url(https://www.sublimio.com/wp-content/uploads/2023/04/Sublimio_Personal-branding-examples_Web.jpg) no-repeat;
 
     background-size: cover;
 
     width: 100%;
 
-    height: 95vh;
+    height: 100vh;
+    margin-bottom: 10px;
+    
 
 }
 
@@ -72,77 +91,27 @@ small {
 
 }
 
-.main .bt1 {
 
-    height: 55px;
 
-    width: 138px;
 
-    background-color: rgb(233, 20, 109);
 
-    color:
 
-        white;
 
-    outline:
-
-        none;
-
-    border: none;
-
-    font-weight:
-
-        bold;
-
-    border-radius:
-
-        5px;
-
+.img-fluid{
+    border:1px black solid;
+    border-radius: 10px;
 }
-
-.main .bt2 {
-
-    height:
-
-        55px;
-
-    width: 138px;
-
-    background-color:
-
-        rgb(233, 20, 109);
-
-    color:
-
-        white;
-
-    outline:
-
-        none;
-
-    border:
-
-        none;
-
-    font-weight:
-
-        bold;
-
-    border-radius: 5px;
-    margin: 10px;
-
+.about{
+    background-color: rgb(102, 132, 184);
+    border: 1px black solid;
+    border-radius: 10px;
 }
-
-.main .bt2:hover {
-    background-color: aliceblue;
-    color: rgb(233, 20, 109);
+.text-white{
+    position: relative;
+    left:10px;
+    font-size: 15PX;
+    margin-top: 0PX;
 }
-
-.main .bt1:hover {
-    background-color: aliceblue;
-    color: rgb(233, 20, 109);
-}
-
 .about img {
     -webkit-box-shadow: 6px 4px 41px -24px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 6px 4px 29px -14px rgba(0, 0, 0, 0.75);
@@ -154,6 +123,15 @@ small {
 h1 {
     font-size: 3rem;
     font-weight: 900;
+}
+.services{
+
+    background-color: rgb(102, 132, 184);
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
 }
 
 .progress {
@@ -178,7 +156,8 @@ h1 {
 }
 
 .pro-value1 {
-
+    font-weight: bold;
+   
     animation: load1 3s normal forwards;
 
     border-radius: 50px;
@@ -238,8 +217,17 @@ h1 {
     }
 }
 
+  #portfolio{
+    background-color: rgb(102, 132, 184);
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+  }
 .pro-value2 {
-
+    font-weight: bold;
+  
     animation: load2 3s normal forwards;
 
     border-radius: 50px;
@@ -253,7 +241,7 @@ h1 {
 }
 
 .pro-value3 {
-
+    font-weight: bold;
     animation: load3 3s normal forwards;
 
     border-radius: 50px;
@@ -267,6 +255,8 @@ h1 {
 }
 
 .pro-value4 {
+    font-weight: bold;
+  
 
     animation: load4 3s normal forwards;
 
@@ -281,9 +271,9 @@ h1 {
 }
 
 .btn1 {
-
+  
     height: 40px;
-
+margin-bottom: 10px;
     width: 145px;
 
     outline: none;
@@ -294,8 +284,14 @@ h1 {
     color: white;
 
     border-radius: 4px;
-    background-color: black;
+    background-color: gold;
+    color:black;
+    font-weight: bold;
 
+}
+.marg{
+    position: relative;
+    top:-10px;
 }
 
 .btn1:hover {
@@ -317,8 +313,8 @@ h1 {
     width: 145px;
 
     outline: none;
-
-    border: 1px solid black;
+margin:3px;
+    border: 4px solid rgb(116, 80, 80);
     background-color: transparent;
 
     color: white;
@@ -340,9 +336,17 @@ h1 {
     transition: 0.5s;
 
 }
-
+.cards{
+    width: 90%;
+    display: grid;
+      text-align: center;
+      grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+      margin:  auto;
+     padding:20px;
+     gap:20px;
+}
 .card {
-
+  
     border:
 
         none;
@@ -364,6 +368,9 @@ h1 {
     color: gray;
 
 }
+.small-color{
+background-color: aqua;
+}
 
 .circle {
 
@@ -383,9 +390,10 @@ h1 {
 
         black;
 
-    padding:
+    padding-top:
 
         12px;
+    padding-right: 11px;
 
     font-size:
 
@@ -397,11 +405,92 @@ h1 {
 
         inline-block;
     margin-bottom: 20px;
-    
+
 }
-.card:hover .circle{
-    background-color: black;
-    color:white;
+#pricing .card{
+    margin: 10px;
+    text-align: center;
+    height: 80%;
+ 
+}
+.contact{
+    background-color: rgb(102, 132, 184);
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#pricing{
+    background-color: rgb(102, 132, 184);
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card:hover .circle {
+    box-shadow: 0 0 5px rgb(47, 81, 160), 0 0 25px rgb(47, 81, 160), 0 0 50px rgb(47, 81, 160), 0 0 100px cyan;
+
     transition: 0.5s;
 
+}
+.card .circle {
+    box-shadow: 0 0 5px rgb(150, 150, 243), 0 0 25px rgb(150, 150, 243), 0 0 50px rgb(150, 150, 243), 0 0 100px rgb(150, 150, 243);
+
+    transition: 0.5s;
+
+}
+.circle{
+    box-shadow: 0 0 5px rgb(156, 156, 184), 0 0 25px rgb(173, 173, 210), 0 0 50px rgb(67, 67, 160), 0 0 100px rgb(46, 46, 121);
+
+}
+.circle:hover{
+    box-shadow: 0 0 5px rgb(47, 81, 160), 0 0 25px rgb(47, 81, 160), 0 0 50px rgb(47, 81, 160), 0 0 100px cyan;
+
+}
+.form-controle {
+    text-align: center;
+    width: 300px
+}
+
+.form-row {
+    display: flex;
+    text-align: center;
+}
+
+.helo {
+    width: 100%;
+    height: 300%;
+}
+.big{
+    color: aqua;
+}
+
+.wid{
+    height: 400px;
+}
+
+
+#preloader {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    z-index: 999; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: white}; 
+.navbar-brand img{
+    border-radius:20px;
+}
+.portfolio-footer{
+    background-color: rgb(102, 132, 184);
+    text-align: center;
+    font-size: large;
+}
+.portfolio-footer{
+    background-color: rgb(102, 132, 184);
+    text-align: center;
+    font-size: large;
 }

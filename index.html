@@ -12,10 +12,16 @@
 </head>
 
 <body>
+    
+    
 
     <nav class="navbar navbar-expand-lg fixed-top text-uppercase">
         <div class="container-fluid">
-            <a class="navbar-brand font-wieght-bold" href="#">Navbar</a>
+           
+            <a class="navbar-brand mb-auto" href="#">
+                <img src="images/logo.webp" alt="Logo" width="50" height="40" class="d-inline-block logo align-text-top">
+            </a>
+        
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,16 +29,26 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
 
-                    <a class="nav-link  px-lg-4 rounded " href="#">Home</a>
+                    <a class="nav-link  px-lg-4 rounded " href="index.html">Home</a>
                     </li>
 
-                    <a class="nav-link px-lg-4 rounded" href="#">Features</a>
+                    <a class="nav-link px-lg-4 rounded" href="#about">About</a>
                     </li>
 
-                    <a class="nav-link px-lg-4 rounded" href="#">Pricing</a>
-                    </li>
+                    <a class="nav-link px-lg-4 rounded" href="#services">services</a>
+                    
+                    <li>
+                        <a class="nav-link px-lg-4 rounded" href="#portfolio">portfolio</a>
 
-                    <a class="nav-link  px-lg-4 rounded" aria-disabled="true">Disabled</a>
+                    </li>
+                    
+                    <li>
+                        <a class="nav-link px-lg-4 rounded" href="#pricing">Pricing</a>
+
+                    </li>
+                    <li>
+                        <a class="nav-link px-lg-4 rounded" href="#contact-us">contact us</a>
+
                     </li>
                 </ul>
             </div>
@@ -44,18 +60,20 @@
 
             <div class="row py-5">
 
-                <div class="col-lg-6 py-5 mr-auto">
+                <div class="col-lg-6 py-5 marg ">
                     <h3><small class="text-muted">Hello, I'm</small> <br>
 
-                        Christopher
+                        Abdullah
 
                     </h3>
 
                     <h6>PRO WEB-DESIGNER</h6>
+                    
+                    
+                    <button onclick="location.href='#portfolio'" class="btn1 " >my work</button>
+                    
 
-                    <input type="button" value="My Work" class="bt1 mt-5 ">
 
-                    <input type="button" value="Hore ME" class="bt2 mt-5">
 
                 </div>
 
@@ -64,7 +82,7 @@
         </div>
 
     </section>
-    <section class="about py-5">
+    <section id="about" class="about py-5 ">
 
         <div class="container py-5">
 
@@ -72,7 +90,8 @@
 
                 <div class="col-lg-4 pt-3">
 
-                    <img src="images.jpg" class="img-fluid" alt="">
+                    <img src="https://www.sublimio.com/wp-content/uploads/2023/04/Sublimio_Personal-branding-examples_Web.jpg"
+                        class="img-fluid" alt="">
 
                 </div>
 
@@ -82,31 +101,31 @@
 
                     <p> WEB DESIGNER & GRAPHIC DESIGNER</p>
 
-                    <p class="py- 3">I am <span class="font-weight-bold"> Rizwan Khan</span> Lorem Ipsum is
-
-                        It was popularised in the 1960s with the release of Letraset sheets containi</p>
+                    <p class="py- 3">I am <span class="font-weight-bold"> Abdullah Aljammal</span> passionate about
+                        coding and tech. With 5 years of experience, I can  help you to make amazing websites
+                        and apps . Let’s work together to bring your vision to life—contact me todayi</p>
                     <div class="ff">
                         <div class="progress">
                             <div class="pro-value1">
-                                <p>Html/css <span class="text-white float-right">95%</span></p>
+                                <p   class="text-white " >JAVA SCRIPT <span class="text-white ">95%</span></p>
                             </div>
 
                         </div>
                         <div class="progress">
                             <div class="pro-value2">
-                                <p>Html/css <span class="text-white float-right">95%</span></p>
+                                <p  class="text-white " >HTML <span class="text-white float-right">70%</span></p>
                             </div>
 
                         </div>
                         <div class="progress">
                             <div class="pro-value3">
-                                <p>Html/css <span class="text-white float-right">95%</span></p>
+                                <p  class="text-white" >CSS <span class="text-white float-right">80%</span></p>
                             </div>
 
                         </div>
                         <div class="progress">
                             <div class="pro-value4">
-                                <p>Html/css <span class="text-white float-right">95%</span></p>
+                                <p  class="text-white " >PYTHON <span class="text-white float-right">85%</span></p>
                             </div>
 
                         </div>
@@ -117,36 +136,59 @@
 
             </div>
 
-            <input type="button" class="btn1" value="download c.v">
-            <input type="button" class="btn2" value="contact us">
+
+            <button onclick="location.href='#contact-us'" class="btn1">contact-us </button>
     </section>
-    <section class="services py-5 bg-light">
+    <section id="services" class="services color py-5 ">
 
-        <div class="container py-5">
+        <div class="container py-5 ">
 
-            <h1 class="text-center pb-5">Services.</h1>
+            <h1 class="text-center pb-5">Our Services</h1>
 
             <div class="row pb-3">
 
+                <!-- Web Design Service -->
                 <div class="col-lg-4 mb-3">
-
                     <div class="card text-center py-3">
-
                         <div class="card-body">
-
                             <div class="circle">
-
-                                <span><i class="fas fa-desktop"></i></span>
-
+                                <span><i class="fas fa-code"></i></span>
                             </div>
-                            <h4 class="font-weight-bold pb-2">web design </h4>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, cum similique vel mollitia
-                                perferendis beatae facilis. Suscipit, dolorem! Accusamus dolores nostrum quasi impedit
-                                totam animi voluptates, quos architecto quidem expedita!</p>
+                            <h4 class="font-weight-bold pb-2">Web Design</h4>
+                            <p>We design visually striking and intuitive websites that align perfectly with your brand
+                                identity. From initial concepts to the final launch, we focus on delivering engaging
+                                digital experiences .</p>
                         </div>
-
                     </div>
+                </div>
 
+                <!-- Web Development Service -->
+
+                <div class="col-lg-4 mb-3">
+                    <div class="card  text-center py-3">
+                        <div class="   card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-code"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2">Web Development</h4>
+                            <p>Our expert developers turn designs into fully functional websites. We ensure seamless
+                                performance, responsiveness, and scalability to meet all your digital needs.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SEO Optimization Service -->
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-search"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2">SEO Optimization</h4>
+                            <p>Boost your website's visibility and attract more traffic with our comprehensive SEO
+                                strategies. We help you rank higher and reach your target audience effectively.</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -154,11 +196,12 @@
         </div>
 
     </section>
-    <section class="blog bg-light py-5">
+
+    <section id="portfolio" class="blog  py-5">
 
         <div class="container">
 
-            <h1 class="text-center">Our Blog.</h1>
+            <h1 class="text-center">portfolio.</h1>
 
             <div class="row py-5">
 
@@ -166,32 +209,17 @@
 
                     <div class="card">
 
-                        <img src="download.jpg" class="img-fluid" alt="">
+                        <img src="images/sto-watch image.png" class="img-fluid" alt="">
 
-                        <small class="px-3 py-3 font-weight-bold">WebDesign</small>
+                        <small class="px-3 py-3 small-color font-weight-bold">WebDesign</small>
 
-                        <h5 class="font-weight-bold px-3">Top Web Designs Templates And Themes
+                        <h5 class="font-weight-bold px-3">Top Web Designs Templates And Themes <br><br><br>
 
-                            <a href="#" class="font-weight-bold px-3 pb-4">
-
-                                <u>Read More</u></a>
-
-                    </div>
-
-                </div>
-                <div class="col-lg-4 mb-3">
-
-                    <div class="card">
-
-                        <img src="download.jpg" class="img-fluid" alt="">
-
-                        <small class="px-3 py-3 font-weight-bold">WebDesign</small>
-
-                        <h5 class="font-weight-bold px-3">Top Web Designs Templates And Themes
-
-                            <a href="#" class="font-weight-bold px-3 pb-4">
-
-                                <u>Read More</u></a>
+                            <button
+                            onclick="window.open('https://github.com/AbdullahAljammal/stop-watch', '_blank')"
+                            class="btn2">GitHub </button>
+                            <button onclick="window.open('https://chipper-hamster-6ae458.netlify.app/', '_blank')"
+                                class="btn2">website </button>
 
                     </div>
 
@@ -200,16 +228,38 @@
 
                     <div class="card">
 
-                        <img src="download.jpg" class="img-fluid" alt="">
+                        <img src="images/image.png" class="img-fluid" alt="">
 
-                        <small class="px-3 py-3 font-weight-bold">WebDesign</small>
+                        <small class="px-3 py-3 small-color  font-weight-bold">WebDesign</small>
 
-                        <h5 class="font-weight-bold px-3">Top Web Designs Templates And Themes
+                        <h5 class="font-weight-bold px-3">Top Web Designs Templates And Themes <br><br><br>
+                            <button
+                            onclick="window.open('https://github.com/AbdullahAljammal/guide-to-my-country-', '_blank')"
+                            class="btn2">GitHub </button>
+                        <button onclick="window.open('https://shimmering-licorice-8b0a07.netlify.app/', '_blank')"
+                            class="btn2">website </button>
 
-                            <a href="#" class="font-weight-bold px-3 pb-4">
+                    </div>
 
-                                <u>Read More</u></a>
+                </div>
+                <div class="col-lg-4 mb-3">
 
+                    <div class="card">
+
+                        <img src="images/calc.png" class="img-fluid" alt="">
+
+
+
+                        <small class="px-3 py-3  small-color font-weight-bold">WebDesign</small>
+
+                        <h5 class="font-weight-bold px-3">Top Web Designs Templates And Themes <br><br><br>
+
+                            <button onclick="window.open('https://github.com/AbdullahAljammal/calculator', '_blank')"
+                            class="btn2 bold">GitHub </button>
+                        <button onclick="window.open('https://lucent-babka-4a3d81.netlify.app/', '_blank')"
+                            class="btn2">website </button>
+                        
+                           
                     </div>
 
                 </div>
@@ -219,57 +269,128 @@
         </div>
 
     </section>
-    <section class="contact py-5">
+
+
+
+
+
+    <section id="pricing">
+        <div class="cards">
+            <div class="card" >
+                <img src="https://t4.ftcdn.net/jpg/05/34/57/69/360_F_534576941_gss2TpdhqZ3Amgho1Rh44mhbBKj9RwQR.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body wid">
+                    <h5 class="card-title">Starter Plan</h5>
+                    <p class="card-text">Perfect for individuals starting out!
+                        <br>Includes basic services tailored to your needs.
+                        <br>Up to 5 hours of dedicated support.
+                        <br>1 revision included.
+                        <br>Price: 30$/hour
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://t4.ftcdn.net/jpg/05/34/57/69/360_F_534576941_gss2TpdhqZ3Amgho1Rh44mhbBKj9RwQR.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body wid">
+                    <h5 class="card-title">Professional Plan</h5>
+                    <p class="card-text">🚀 <br>Designed for growing professionals and small businesses.
+
+                        <br>Comprehensive services to elevate your project.
+                        <br>Up to 15 hours of dedicated support.
+                        <br>3 revisions included.
+                        <br>Price: 50$/project
+                </div>
+            </div>
+            <div class="card" >
+                <img src="https://t4.ftcdn.net/jpg/05/34/57/69/360_F_534576941_gss2TpdhqZ3Amgho1Rh44mhbBKj9RwQR.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body wid">
+                    <h5 class="card-title">Premium Plan</h5>
+                    <p class="card-text">Perfect for large-scale projects and ongoing support!
+                        <br> Ideal for large-scale projects and ongoing support.
+
+                        Unlimited services tailored to your goals.
+                        Priority support and fast turnaround.
+                        Unlimited revisions.
+                        Price: 100$/month
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div id="preloader">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <section id="contact-us" class="contact py-5">
 
         <div class="container py-5">
-        
-        <h1 class="text-center">Contact Us.</h1>
-        
-        <div class="row py-5">
-        
-        <div class="col-lg-10">
-        
-        <div class="row">
-        
-        <div class="col-lg-4">
-        <div class="circle">
 
-        </div>
-        <h5>adress</h5>
-        <p>hello for chehim</p>
-        </div>
-        
-        <div class="col-lg-4">
-            <div class="circle">
+            <h1 class="text-center">Contact Us.</h1>
+
+            <div class="row py-5">
+
+                <div class="col-lg-10 mx-auto">
+
+                    <div class="row text-center">
+
+                        <div class="col-lg-4">
+                            <div class="circle">
+                                <span><i class="fas fa-phone-alt"></i> </span>
+                            </div>
+                            <h5>address</h5>
+                            <p> chehim</p>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="circle">
+                                <span><i class="fas fa-phone-alt"></i> </span>
+
+
+                            </div>
+                            <h5>gmail</h5>
+                            <p>codebraver16@codebrave.org</p>
+
+
+
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="circle">
+                                <span><i class="fas fa-phone-alt"></i> </span>
+
+
+                            </div>
+                            <h5>phone number</h5>
+                            <p> 0000000</p>
+
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
-            <h5>adress</h5>
-            <p>hello for chehim</p>
-        
-        
-        
-        </div>
-        <div class="col-lg-4">
-            <div class="circle">
-
-            </div>
-            <h5>adress</h5>
-            <p>hello for chehim</p>
-
-        </div>
-        </div>
-        
-        </div>
-        
-        </div>
-        
-        </div>
-        
         </section>
+    </span>
+    <footer class="portfolio-footer">
+        <div class="footer-content">
+            <p>&copy;  All Rights Reserved.</p>
+            <p>
+                <h5 href="mailto:info@Sport-stuff.com">Abdullah@gmail.com</h5>  <h5 href="tel:+1234567890">+1-234-567-890</h5>
+                
+            </p>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+
 </body>
 
 </html>
